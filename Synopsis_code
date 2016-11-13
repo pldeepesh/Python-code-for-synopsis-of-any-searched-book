@@ -34,3 +34,4 @@ soup = BeautifulSoup(_syn_html.text,'html.parser')
 break_down = soup.find('div',{'class':'readable stacked'})
 print str(break_down.find_all('span')[1].contents)
 
+
